@@ -1,0 +1,28 @@
+{
+  "name": "jsonplaceholder-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@vitest/ui": "^3.1.2",
+    "autoprefixer": "^10.4.17",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.4.2",
+    "vitest": "^3.1.2"
+  }
+}
